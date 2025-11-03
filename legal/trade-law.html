@@ -34,31 +34,43 @@
 <section aria-labelledby="price">
   <h2 id="price" style="font-size:1.15rem; margin:2rem 0 .6rem; border-left:4px solid #555; padding-left:.6rem;">販売価格・手数料等</h2>
   <dl style="margin:.6rem 0;">
-    <dt style="font-weight:700; margin-top:.4rem;">月額料金</dt><dd>9,800 円（税抜）</dd>
-    <dt style="font-weight:700; margin-top:.4rem;">初期費用</dt><dd>0 円</dd>
-    <dt style="font-weight:700; margin-top:.4rem;">決済手数料</dt><dd>クレジットカード 3.6%〜 / コンビニ 275 円 + 1.5%（税込）<br><span style="color:#666;">※プランや決済手段により変動する場合があります。</span></dd>
-    <dt style="font-weight:700; margin-top:.4rem;">商品代金以外の必要料金</dt><dd>インターネット接続に関わる通信費・データ通信料（お客様負担）</dd>
+    <dt style="font-weight:700; margin-top:.4rem;">（A）葬儀社向けSaaSの料金</dt>
+    <dd>月額 9,800 円（税抜）／初期費用 0 円</dd>
+
+    <dt style="font-weight:700; margin-top:.4rem;">（B）香典の受付（参列者様向け）</dt>
+    <dd>
+      香典の金額は参列者様が任意に指定するもので、当社の販売価格には該当しません。<br>
+      決済手段に応じた所定の手数料が発生します（例：カード 3.6%〜、コンビニ 275 円 + 1.5% など）。
+    </dd>
+
+    <dt style="font-weight:700; margin-top:.4rem;">商品代金以外の必要料金</dt>
+    <dd>インターネット接続に関わる通信費等（お客様負担）</dd>
   </dl>
 </section>
 
 <section aria-labelledby="payment">
   <h2 id="payment" style="font-size:1.15rem; margin:2rem 0 .6rem; border-left:4px solid #555; padding-left:.6rem;">お支払い方法・時期</h2>
   <dl style="margin:.6rem 0;">
-    <dt style="font-weight:700; margin-top:.4rem;">支払い方法</dt><dd>クレジットカード（Stripe）/ コンビニ / 銀行振込（対応範囲は順次拡大）</dd>
-    <dt style="font-weight:700; margin-top:.4rem;">支払い時期</dt><dd>申込時に即時課金（都度課金）。サブスクリプションの場合は各更新日の前後に自動課金。</dd>
+    <dt style="font-weight:700; margin-top:.4rem;">支払い方法</dt>
+    <dd>クレジットカード（Stripe）/ コンビニ / 銀行振込（対応範囲は順次拡大）</dd>
+    <dt style="font-weight:700; margin-top:.4rem;">支払い時期</dt>
+    <dd>申込時に即時課金（都度課金）。サブスクリプションの場合は各更新日の前後に自動課金。<br>
+      <span style="color:#666;">※香典の決済は参列者様の操作時に即時処理されます。</span>
+    </dd>
   </dl>
 </section>
 
 <section aria-labelledby="delivery">
   <h2 id="delivery" style="font-size:1.15rem; margin:2rem 0 .6rem; border-left:4px solid #555; padding-left:.6rem;">役務の提供時期</h2>
-  <p>決済完了の確認後、即時にアカウントを有効化し、オンライン機能（配信/香典受付/管理画面）を提供開始します。</p>
+  <p>決済完了の確認後、即時にアカウントを有効化し、オンライン機能（配信/香典受付/管理画面）を提供開始します。<br>
+  <span style="color:#666;">※香典の決済完了後は、参列者様・主催者様へ受付完了の画面/メール（設定時）を即時表示/送信します。</span></p>
 </section>
 
 <section aria-labelledby="cancel">
   <h2 id="cancel" style="font-size:1.15rem; margin:2rem 0 .6rem; border-left:4px solid #555; padding-left:.6rem;">キャンセル・返金・返品等</h2>
   <ul style="margin:.6rem 0;">
     <li>デジタル役務の性質上、提供開始後のキャンセル・返品は原則としてお受けできません。</li>
-    <li>当社の不具合・重複決済・誤課金が認められる場合は、調査のうえ全額返金いたします。</li>
+    <li>香典については性質上返金不可としますが、<strong>重複決済・誤課金・不正利用等が認められる場合</strong>は、当社および主催者の確認のうえ返金対応いたします。</li>
     <li>サブスクリプションの解約は管理画面からいつでも可能。次回請求日の前日までの解約で次回以降の課金を停止します（既に発生した料金の返金は行いません）。</li>
   </ul>
 </section>
@@ -69,6 +81,7 @@
     <li>提供地域：日本国内</li>
     <li>年齢制限：未成年の方は保護者の同意が必要</li>
     <li>推奨環境：最新の主要ブラウザ、安定した上り回線</li>
+    <li><strong>資金の流れ：</strong>香典のカード決済は Stripe を通じて主催者（葬儀社/施主）名義の口座へ直接入金されます。当社は香典の保管・送金業は行いません。</li>
   </ul>
 </section>
 
